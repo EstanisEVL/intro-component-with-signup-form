@@ -30,15 +30,17 @@ Users should be able to:
   - The email address is not formatted correctly (i.e. a correct email address should have this structure: `name@host.tld`). The message for this error should say *"Looks like this is not an email"*
 
 
-### Screenshot
+### Screenshots
 
 - Desktop preview:
 
 ![Desktop](./Screenshot-desktop.png)
 
+![Desktop - Active states](./Screenshot-desktop-active-states.png)
+
 - Mobile preview:
 
-![Mobile](./Screenshot-mobile.png)
+![Mobile](./Screenshot-mobile-active-states.png)
 
 
 ### Links
@@ -63,8 +65,8 @@ Users should be able to:
 ### What I learned
 
 Major learnings while working through this project:
-- Form validations using regular expressions;
-- Conditional rendering of different error messages;
+- Form validation using regular expressions;
+- Conditional rendering of different error messages and CSS classes;
 - Setting states and methods in a custom hook that is then imported to the Form component.
 
 
@@ -75,7 +77,7 @@ I will continue to focus on more advanced ways to implement JavaScript to simpli
 
 ### Useful resources
 
-- [https://www.youtube.com/watch?v=JYFMc_S6kWc] I recommend this video by [Jonathan MirCha](https://github.com/jonmircha), part of his ReactJs course uploaded on [Youtube](https://www.youtube.com/). It helped me oragnize the logic of the form. I really liked how he thought of the form functions first and then used a custom hook to apply all of them. I'll definitely start applying this pattern in my future projects.
+- [https://www.youtube.com/watch?v=JYFMc_S6kWc] I recommend this video by [Jonathan MirCha](https://github.com/jonmircha), part of his ReactJS course uploaded on [Youtube](https://www.youtube.com/). It helped me organize the logic of the form. I really liked how he thought of the form functions first and then used a custom hook to apply all of them. I'll definitely start applying this pattern in my future projects.
 
 
 ## Author
