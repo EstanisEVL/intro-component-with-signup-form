@@ -2,6 +2,7 @@
 
 This is a solution to the [Intro component with sign up form challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/intro-component-with-signup-form-5cf91bd49edda32581d28fd1).
 
+
 ## Table of contents
 
 - [Overview](#overview)
@@ -15,6 +16,7 @@ This is a solution to the [Intro component with sign up form challenge on Fronte
   - [Useful resources](#useful-resources)
 - [Author](#author)
 
+
 ## Overview
 
 ### The challenge
@@ -26,6 +28,7 @@ Users should be able to:
 - Receive an error message when the `form` is submitted if:
   - Any `input` field is empty. The message for this error should say *"[Field Name] cannot be empty"*
   - The email address is not formatted correctly (i.e. a correct email address should have this structure: `name@host.tld`). The message for this error should say *"Looks like this is not an email"*
+
 
 ### Screenshot
 
@@ -43,6 +46,7 @@ Users should be able to:
 - Solution URL: [link](https://github.com/EstanisEVL/intro-component-with-signup-form)
 - Live Site URL: [link](https://estanisevl-signup-form-component.netlify.app/)
 
+
 ## My process
 
 ### Built with
@@ -54,6 +58,7 @@ Users should be able to:
 - Mobile-first workflow
 - [React](https://reactjs.org/) - JS library
 - SASS / SCSS
+
 
 ### What I learned
 
@@ -71,6 +76,7 @@ I will continue to focus on more advanced ways to implement JavaScript to simpli
 ### Useful resources
 
 - [https://www.youtube.com/watch?v=JYFMc_S6kWc] I recommend this video by [Jonathan MirCha](https://github.com/jonmircha), part of his ReactJs course uploaded on [Youtube](https://www.youtube.com/). It helped me oragnize the logic of the form. I really liked how he thought of the form functions first and then used a custom hook to apply all of them. I'll definitely start applying this pattern in my future projects.
+
 
 ## Author
 
