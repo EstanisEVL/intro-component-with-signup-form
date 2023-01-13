@@ -1,0 +1,32 @@
+@use '../utils/shared' as *;
+
+body {
+  font-family: 'Poppins';
+  font-size: 16px;
+  // Background MOBILE:
+  @media (max-width: 375px) {
+    background: url('../../assets/images/bg-intro-mobile.png');
+    background-color: $primary-color;
+    height: calc(100vh - 0.1px);
+    .main {
+      display: flex;
+      flex-flow: column nowrap;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+  // Background DESKTOP:
+  @media (min-width: 376px) {
+    background: url('../../assets/images/bg-intro-desktop.png') no-repeat center/cover;
+    background-color: $primary-color;
+    min-height: 100vh;
+    max-width: 100vw;
+    .main {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 2rem;
+      padding: 0 1.5em;
+    }
+  }
+}

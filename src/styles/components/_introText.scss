@@ -1,0 +1,49 @@
+@use '../utils/_shared.scss' as *;
+
+/*---- MOBILE ----*/
+@media (max-width: 375px) {
+  .intro-section {
+    align-items: center;
+    color: $primary-white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 5.5rem;
+    margin-bottom: 4rem;
+    text-align: center;
+    .intro-section-title {
+      max-width: 60%;
+      font-family: 'Poppins-bold', sans-serif;
+      font-size: clamp(1.6rem, 5vw, 2rem);
+    }
+    .intro-section-text {
+      max-width: 85%;
+      margin-top: 1.2rem;
+      font-size: 1rem;
+      line-height: 1.6;
+    }
+  }
+}
+
+/*---- DESKTOP ----*/
+@media (min-width: 376px) {
+  .intro-section {
+    align-items: flex-start;
+    color: $primary-white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 40%;
+    .intro-section-title {
+      font-family: 'Poppins-bold', sans-serif;
+      font-size: clamp(2rem, 5vw, 3rem);
+      max-width: 80%;
+      margin-bottom: 1.8rem;
+    }
+    .intro-section-text {
+      color: hsl(0, 0%, 90%);
+      line-height: 1.6;
+      max-width: 90%;
+    }
+  }
+}

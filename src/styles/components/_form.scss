@@ -1,0 +1,188 @@
+@use '../utils/_shared.scss' as *;
+
+/*---- MOBILE ----*/
+@media (max-width: 375px) {
+  .form {
+    background-color: $primary-white;
+    border-radius: 10px;
+    box-shadow: 0px 7px 0px 0px rgba(62,60,73,0.25);
+    -webkit-box-shadow: 0px 7px 0px 0px rgba(62,60,73,0.25);
+    -moz-box-shadow: 0px 7px 0px 0px rgba(62,60,73,0.25);
+    margin-bottom: 5rem;
+    padding: 1.5rem;
+    .form-content {
+      .form-box {
+        width: 100%;
+        position: relative;
+        .form-input {
+          border: 1px solid rgb(207, 205, 228);
+          border-radius: 4px;
+          font-family: 'Poppins-bold';
+          font-size: 0.85rem;
+          margin-bottom: 1rem;
+          min-height: 5vh;
+          padding: 1.15rem;
+          width: 100%;
+          &:focus {
+            outline: 1px solid $neutral-color-dark;
+          }
+        }
+        .error-icon {
+          position: absolute;
+          min-width: 24px;
+          top: 1rem;
+          right: 2rem;
+        }
+        .error-input {
+          color: $primary-color;
+          border: 2px solid $primary-color;
+          border-radius: 4px;
+          font-size: 0.85rem;
+          margin-bottom: 0.5rem;
+          min-height: 5vh;
+          padding: 1.15rem;
+          width: 100%;
+          &::placeholder {
+            color: transparent;
+          }
+        }
+        .error-msg {
+          display: flex;
+          justify-content: flex-end;
+          color: $primary-color;
+          font-size: 0.75rem;
+          font-family: 'Poppins-italic';
+          font-weight: 700;
+          margin-bottom: 1rem;
+        }
+      }
+    }
+    .form-btn {
+      width: 100%;
+      border: none;
+      border-bottom: 4px solid hsl(154, 62%, 42%);
+      border-radius: 6px;
+      background-color: $primary-color-btn;
+      color: $primary-white;
+      font-family: 'Poppins';
+      font-size: 1rem;
+      font-weight: 500;
+      letter-spacing: 1.6px;
+      padding: 1rem 2rem;
+      text-transform: uppercase;
+      transition: all 0.3s ease;
+      &:active {
+        background-color: hsl(154, 85%, 62%);
+        cursor: pointer;
+      }
+    }
+    .form-disclaimer {
+      color: $neutral-color-light;
+      font-size: 0.65rem;
+      padding: 1rem 1.5rem 0 1.5rem;
+      text-align: center;
+      span {
+        color: $primary-color;
+        font-family: 'Poppins-bold';
+      }
+    }
+  }
+}
+
+/*---- DESKTOP ----*/
+@media (min-width: 376px) {
+  .form {
+    background-color: $primary-white;
+    border-radius: 10px;
+    box-shadow: 0px 7px 0px 0px rgba(62,60,73,0.25);
+    -webkit-box-shadow: 0px 7px 0px 0px rgba(62,60,73,0.25);
+    -moz-box-shadow: 0px 7px 0px 0px rgba(62,60,73,0.25);
+    margin-bottom: 5rem;
+    padding: 2.5em;
+    .form-content {
+      max-width: 100%;
+      .form-box {
+        position: relative;
+        .form-input {
+          border: 1px solid rgb(207, 205, 228);
+          border-radius: 4px;
+          font-family: 'Poppins-bold';
+          font-size: 0.85rem;
+          margin-bottom: 1rem;
+          min-height: 5vh;
+          padding: 1.15rem;
+          width: 100%;
+          &:focus {
+            outline: 1px solid $neutral-color-dark;
+          }
+        }
+        .error-icon {
+          position: absolute;
+          min-width: 24px;
+          top: 1rem;
+          right: 2rem;
+        }
+        .error-input {
+          border: 2px solid $primary-color;
+          border-radius: 4px;
+          font-size: 0.85rem;
+          margin-bottom: 0.5rem;
+          min-height: 5vh;
+          padding: 1.15rem;
+          width: 100%;
+          &:focus {
+            outline: $primary-color;
+          }
+          &::placeholder {
+            color: transparent;
+          }
+        }
+        .email-error-input {
+          color: $primary-color;
+          font-weight: 700;
+        }
+        .error-msg {
+          display: flex;
+          justify-content: flex-end;
+          color: $primary-color;
+          font-size: 0.75rem;
+          font-family: 'Poppins-italic';
+          font-weight: 700;
+          margin-bottom: 1rem;
+        }
+      }
+    }
+    .form-btn {
+      width: 100%;
+      background-color: $primary-color-btn;
+      border: none;
+      border-radius: 6px;
+      box-shadow: 0px 5px 0px 0px $primary-color-btn-shadow;
+      -webkit-box-shadow: 0px 5px 0px 0px $primary-color-btn-shadow;
+      -moz-box-shadow: 0px 5px 0px 0px $primary-color-btn-shadow;
+      color: $primary-white;
+      font-family: 'Poppins';
+      font-size: 1rem;
+      font-weight: 500;
+      letter-spacing: 1.6px;
+      padding: 1rem 2rem;
+      text-transform: uppercase;
+      transition: all 0.3s ease;
+      &:hover {
+        background-color: hsl(154, 85%, 62%);
+        box-shadow: none;
+        cursor: pointer;
+      }
+    }
+    .form-disclaimer {
+      color: $neutral-color-light;
+      font-size: 0.65rem;
+      padding: 1rem 1.5rem 1rem 1.5rem;
+      text-align: center;
+      span {
+        color: $primary-color;
+        font-family: 'Poppins-bold';
+      }
+    }
+  }
+}

@@ -1,0 +1,16 @@
+@use '../utils/_shared.scss' as *;
+
+/*---- MOBILE ----*/
+@media (max-width: 375px) {
+  .content-section {
+    max-width: 88%;
+  }
+}
+
+/*---- DESKTOP ----*/
+@media (min-width: 376px) {
+  .content-section {
+    margin-top: 8rem;
+    max-width: 60%;
+  }
+}

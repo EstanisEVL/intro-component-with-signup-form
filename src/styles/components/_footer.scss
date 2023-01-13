@@ -1,0 +1,32 @@
+@use '../utils/shared' as *;
+
+/*---- MOBILE ----*/
+@media (max-width: 375px) {
+  .footer {
+    display: flex;
+    align-items: flex-end;
+    .attribution { 
+      font-size: 0.7rem;
+      text-align: center;
+      a {
+        color: hsl(228, 45%, 44%);
+      }
+    }
+  }
+}
+
+/*---- DESKTOP ----*/
+@media (min-width: 376px) {
+  .footer {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    .attribution { 
+      font-size: 1rem;
+      text-align: center;
+      a {
+        color: hsl(228, 45%, 44%);
+      }
+    }
+  }
+}
