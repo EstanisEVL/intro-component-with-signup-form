@@ -40,7 +40,9 @@ Users should be able to:
 
 - Mobile preview:
 
-![Mobile](./Screenshot-mobile-active-states.png)
+![Mobile](./Screenshot-mobile.png)
+
+![Mobile - Active states](./Screenshot-mobile-active-states.png)
 
 
 ### Links
