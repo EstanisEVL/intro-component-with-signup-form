@@ -79,7 +79,7 @@ I will continue to focus on more advanced ways to implement JavaScript to simpli
 
 ### Useful resources
 
-- [https://www.youtube.com/watch?v=JYFMc_S6kWc] I recommend this video by [Jonathan MirCha](https://github.com/jonmircha), part of his ReactJS course uploaded on [Youtube](https://www.youtube.com/). It helped me organize the logic of the form. I really liked how he thought of the form functions first and then used a custom hook to apply all of them. I'll definitely start applying this pattern in my future projects.
+- [https://www.youtube.com/watch?v=JYFMc_S6kWc] I highly recommend this video by [Jonathan MirCha](https://github.com/jonmircha), part of his ReactJS course uploaded on [Youtube](https://www.youtube.com/). It helped me organize the form's logic. I really liked how he started his approach by first configuring the form's functionality, which he then wrapped up in a custom hook. I'll definitely start applying this pattern in my future projects.
 
 
 ## Author
